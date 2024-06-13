@@ -7,4 +7,6 @@ The project is a [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphi
 - FPGAs are devices that can offer significant advantages in performance over traditional devices (CPUs/GPUs), due to their lower latency and higher power efficiency. They're used in High Frequency Trading to make faster investment decisions, and Microsoft uses them to accelerate [AI (Project Brainwave)](https://www.microsoft.com/en-us/research/project/project-brainwave/) and [Azure](https://www.theregister.com/2023/11/21/azure_boost_network_accelerator/).
 
 ## Running this project
-Clone the host, NewFPGA and NewHPS repos and follow README instructions for each.
+Clone the NewFPGA, NewHPS, and host repos and follow README instructions for each.  
+
+We designed this for a DE1-SoC board, but it probably works on a DE10 as well. Any CycloneV FPGA should also work after some changes to the Qsys design.
