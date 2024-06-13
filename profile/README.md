@@ -9,4 +9,4 @@ The project is a [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphi
 ## Running this project
 Clone the NewFPGA, NewHPS, and host repos and follow README instructions for each.  
 
-We designed this for a DE1-SoC board, but it probably works on a DE10 as well. Any CycloneV FPGA should also work after some changes to the Qsys design.
+We designed this for the DE1-SoC board, but it probably works on a DE10 as well.
