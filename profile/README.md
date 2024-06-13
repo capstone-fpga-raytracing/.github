@@ -7,6 +7,7 @@ The project is a [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphi
 - FPGAs are devices that can offer significant advantages in performance over traditional devices (CPUs/GPUs), due to their lower latency and higher power efficiency. They're used in High Frequency Trading to make faster investment decisions, and Microsoft uses them to accelerate [AI (Project Brainwave)](https://www.microsoft.com/en-us/research/project/project-brainwave/) and [Azure](https://www.theregister.com/2023/11/21/azure_boost_network_accelerator/).
 
 ## Running this project
-Clone the NewFPGA, NewHPS, and host repos and follow README instructions for each.  
+Follow README instructions for the NewFPGA, NewHPS, and host repos.   
+Once done, you can trigger a render using our [command-line tool](https://github.com/capstone-fpga-raytracing/host).
 
 We designed this for the DE1-SoC board, but it probably works on a DE10 as well.
